@@ -1,0 +1,26 @@
+.gotham{
+    position: relative;
+    width: 1000px;
+  }
+
+.batman{
+    position: relative;
+    top: 0;
+    left: 0;
+    animation-name: bat;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+.joker{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+@keyframes bat {
+    from { transform: translateX(0%)}
+    to { transform: translateX(520%) translateY(430%) rotate(-90deg) scale(4.5)}
+    }
+    
